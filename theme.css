@@ -896,11 +896,12 @@ div.tags-label-container {
     color: #8c8c8c;
 }
 
+/* Done */
 .tag-box,
 .tag-delete
 {
-    color: #4F4F4F;
-    background-color: #d7e6f3;
+    color: #DCDCDC;
+    background-color: #292C31;
 }
 
 .invalid-workitem-row  .tag-box
@@ -908,14 +909,14 @@ div.tags-label-container {
     color: #C00;
 }
 
+/* Done */
 .tag-container:focus .tag-box-selectable,
 .tag-container:hover .tag-box-selectable,
 .tag-box-selectable.pressed
 {
-    color: #ffffff;
-    background-color: #007acc;
-    
-    }
+    color: #DCDCDC;
+    background-color: #3399FF;
+}
 
 .tags-input {
     border-color: #cccccc;
@@ -926,10 +927,11 @@ div.tags-label-container {
     border-color: #cccccc;
 }
 
+/* Done */
 .tags-add-button .tag-box-selectable
 {
-    color: #474747;
-    background-color: #ebf2f9;
+    color: #DCDCDC;
+    background-color: #393C42;
 }
 
 .tfs-tags-filter .tag-item-count
@@ -948,45 +950,60 @@ div.tags-label-container {
     color: #8c8c8c;
 }
 
+/* Done */
 .tags-autocomplete-menu {
-	background-color:  #ffffff;
-    border-color: #cccccc;
+    
+	background-color: #292C31;
+    border-color: #393C42;
 }
 
+/* Done */
 .tags-autocomplete-menu .ui-menu-item a {
-	color: #000000;
+	color: #DCDCDC;
 }
 
+/* Done */
 .tags-autocomplete-menu .ui-menu-item a.ui-state-hover,
 .tags-autocomplete-menu .ui-menu-item a.ui-state-active {
-    background-color: #d7e6f3;
-    
+    background-color: #3399FF;
 }
 
+/* Done */
 .tag-container
 {
-    border-color: #ffffff;
+    border-color: #DCDCDC;
 }
 
+/* Done */
 .tag-delete {
-    background-color: #d7e6f3;
+    background-color: #3399FF;
+    background: url(/tfs/_static/tfs/11/_content/common-icons.png) no-repeat -2604px -16px;
 }
 
+/* Done */
 .tag-box-delete-experience:hover
 {
-    background-color: #B4C8D7;
+    background-color: #393C42;
 }
 
+/* Done */
 .tag-container:focus .tag-box-delete-experience
 {
-    color: #ffffff;
-    background-color: #007acc;
-    
-    }
+    color: #DCDCDC;
+    background-color: #292C31;
+}
 
+/* Done */
 .tag-container:focus .tag-box-delete-experience:hover
 {
-    background-color: #0064AE;
+    background-color: #393C42;
+}
+
+/* Done */
+.tag-container .tag-delete:hover,
+.tag-container:focus .tag-delete:hover
+{
+    background-color: #3399FF;
 }
 
 .legacy-header .hub-groups > li > a
@@ -3111,4 +3128,266 @@ div.expectedResult-header, div.comment-header
 
 .ui-widget-content {
 	border-color: #395573;
+}
+
+/* Done */
+.ui-widget-header .ui-icon {
+    background-image: url(/tfs/_static/tfs/11/_content/smoothness/images/ui-icons_888888_256x240.png);
+}
+
+/* Agile */
+
+.taskboard-cell
+{
+    border-color: #D9D9D9;
+}
+
+/* Done */
+th .witState
+{
+    color: #DCDCDC;
+}
+
+/* Done */
+.tbPivotItem .witTitle
+{
+    color: #3399FF;  
+}
+
+/* Done */
+.tbTile .tbTileContent
+{
+    border-left-color: #3399FF;
+    background-color: #393C42;
+}
+
+/* Done */
+.tbTile .witTitle
+{
+    color: #DCDCDC;
+}
+
+/* Done */
+.tbTile .witExtra {
+	border-top: 1px solid #292C31;
+}
+
+/* Done */
+.tbTile .witAssignedTo
+{
+    color: #DCDCDC;
+}
+
+.tbTile .tbTileContent.tile-dimmed
+{
+    background-color: #F3F3F3;
+    border-left-color: #BFBFBF;
+}
+
+/* Done */
+.witRemainingWork
+{
+    color: #DCDCDC;
+}
+
+/* Done */
+.witRemainingWork input
+{
+    color: #DCDCDC;
+    background-color: #292C31 !important;
+}
+
+/* Done */
+.witAssignedTo input
+{
+    color: #DCDCDC;
+    background-color: #292C31 !important;
+}
+
+/* Done */
+.witExtra .hover
+{
+	 border-color: #DCDCDC;
+     background: #3399FF;	
+}
+
+.combo input.invalid
+{
+    background-color: #ffffcc !important;
+}
+
+#project-nav li
+{
+    color: #A6A6A6;
+}
+
+#project-nav a:hover
+{
+    color: #A6A6A6;
+}
+
+
+.tbTile .witSaving
+{
+    color: #FFFFFF;
+    background-color: #4D6082;
+}
+
+.tbTile .witError
+{
+    color: #FFFFFF;
+    background-color: #FF0000;
+}
+
+.dragHover
+{
+    background-color: #EBF1DE;
+}
+
+.dragReparentHover
+{
+    background-color: #C3D69B; 
+       
+}
+
+.rowReparentHover 
+{
+    border-bottom-color: #C3D69B;
+}
+
+.rowReparentHoverFirst 
+{
+    border-top-color: #C3D69B;
+}
+
+.team-iteration-view.tree-view .node.dragHover > a > div.node-content
+{
+    background-color: #EBF1DE;
+    color: #000000;
+}
+
+.add-panel
+{
+    background-color: #e6e6e6;
+    border-left-color: #cccccc;
+}
+.forecasting-input-container
+{
+    background-color: #6e94ae;
+    color: #ffffff;
+    border-left-color: #6e94ae;
+}
+
+.forecasting-input-control-text
+{
+    border-color: #6e94ae;
+}
+
+.forecasting-input-control-text-hover
+{
+    background-color: #88abbd;
+    border-color: #ffffff;
+}
+
+.add-panel.disabled .combo > div.wrap > input.disabled,
+.add-panel.disabled .combo
+{
+    background-color: lightgrey;
+}
+
+.forecasting-input-control-table label
+{
+    color: #ffffff;
+}
+
+.backlog-parent-effort
+{
+    color: #6D6D6D;
+}
+
+.backlog .grid-row-normal.grid-row-insertion-highlight-top
+{
+    border-top-color: #008000;
+}
+
+.backlog .grid-row-normal.grid-row-insertion-highlight-bottom
+{
+    border-bottom-color: #008000;
+}
+
+.sprint-line-single > .grid-cell
+{
+    border-bottom-color: #6e94ae; 
+}
+
+.sprint-line-double > .grid-cell
+{
+    border-bottom-color: #6e94ae; 
+}
+
+.drag-drop-insert-before > .grid-cell
+{
+    border-top-color: #808080;
+}
+
+.drag-drop-insert-after > .grid-cell,
+.drag-drop-insert-after.full > .grid-cell:first-child,
+.drag-drop-insert-after.full > .grid-cell.order-cell
+{
+    border-bottom-color: #808080;
+}
+
+.drag-drop-new-sibling > .grid-cell.order-cell
+{
+    border-right-color: #808080;
+}
+
+.drag-drop-new-parent > .grid-cell.order-cell
+{
+    background-color: #C3D69B;
+    border-bottom-color: #808080; 
+}
+
+.drag-tile
+{    
+    background-color: #C6DBF7;
+}
+
+.new-workitem-row
+{
+    color: #6D6D6D;
+}
+
+.forecast-column-contents
+{
+    color: #6e94ae;
+}
+
+.header-cell
+{
+    color: #6D6D6D;
+}
+
+.capacity-row-header
+{
+    color: #6D6D6D;
+}
+
+.capacity-pane
+{
+    border-left-color: #cccccc;
+}
+
+.activity-grouped-progress-control
+{
+    border-bottom-color: #DDDDDD;
+}
+
+.team-capacity-control
+{
+    border-bottom-color: #DDDDDD;
+}
+
+.sprint-date.dates-set:hover {
+    color: #007acc;
 }
