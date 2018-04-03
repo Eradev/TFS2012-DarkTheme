@@ -1,11 +1,13 @@
 /* Colors
-	White:	#DCDCDC
-	Black:	#292C31
-	Grey:	#393C42
-	Red:	#D73A49
-	Blue:	#3399FF
-	Purple:	#8430C6
-	Yellow:	#FFD455
+	White:		#DCDCDC
+	Black:		#292C31
+	Light Grey: #ABABAB
+	Grey:		#393C42
+	Red:		#D73A49
+	Dark Blue:	#395573
+	Blue:		#3399FF
+	Purple:		#8430C6
+	Yellow:		#FFD455
 */
 
 body
@@ -64,31 +66,35 @@ A:active
     color: #007acc;
 }
 
+/* Done */
 button,
 button.ui-state-default,
 button.ui-button
 {
-    border-color: #ccc;
-    background-color: #f8f8f8;
-    color: #333333;
+    border-color: #395573;
+    background-color: #393C42;
+    color: #DCDCDC;
 }
 
+/* Done */
 button:hover, button:focus
 {
-    color: #000000;
-    border-color: #aaaaaa;
-    background-color: #fefefe;
+    color: #DCDCDC;
+    border-color: #395573;
+    background-color: #3399FF;
     -moz-box-shadow: 1px 1px 1px rgba(160,160,160,0.2); 
     -webkit-box-shadow: 1px 1px 1px rgba(160,160,160,0.2); 
     box-shadow: 1px 1px 1px rgba(160,160,160,0.2);      
-               
 }
 
-button[disabled], button[disabled]:hover, button[disabled]:focus
+/* Done */
+button[disabled],
+button[disabled]:hover,
+button[disabled]:focus
 {
     color: #ABABAB;
-    background-color: #ffffff; 
-    border: 1px solid #e6e6e6;
+    background-color: #DCDCDC; 
+    border-color: #393C42;
 }
 
 .inline-error
@@ -140,16 +146,20 @@ button[disabled], button[disabled]:hover, button[disabled]:focus
     background-color: #D73A49;
 }
 
-.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled
+/* Done */
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled
 { 
-    color: #ababab;
-    background-color: #ffffff; 
-    border-color: #e6e6e6;
+    color: #ABABAB;
+    background-color: #DCDCDC; 
+    border-color: #393C42;
 }
 
+/* Done */
 .team-home-identity-picture
 {
-    border-color: #e6e6e6!important;
+    border-color: #395573 !important;
 }
 
 .team-home-view .navigation-container
@@ -568,9 +578,11 @@ input.invalid, textarea.invalid
 {
     color: #000000;
 }
+
+/* Done */
 .tree-view .node.info a.node-link
 {
-    color: #6D6D6D;
+    color: #FFD455;
 }
 
 /* Done */
@@ -2094,8 +2106,9 @@ div.tags-label-container {
     color: #FF0000;
 }
 
+/* Done */
 .build-definition-explorer .build-container-node > .node-link > .node-content {
-    color: #000000;
+    color: #DCDCDC;
 }
 
 .build-definition-explorer .build-favorite-empty-node > .node-link {
@@ -2673,9 +2686,9 @@ table.invitation-code-error-table td
     background-color: #cccccc;
 }
 
-
+/* Done */
 .agile-board .member.header {
-    color: #6D6D6D;
+    color: #DCDCDC;
 }
 
 .horizontal > .row > .cell {
@@ -2686,10 +2699,17 @@ table.invitation-code-error-table td
     border-color: #e6e6e6;
 }
 
+/* Done */
 .agile-board .board-tile,
 .board-tile.ui-draggable-dragging {
+    color: #292C31;
     background-color: #f3f3f3;
     border-color: #BFBFBF;
+}
+
+/* Done */
+.boardcolumns-sortable-container {
+    color: #292C31;
 }
 
 .inprogress .board-tile {
@@ -2746,8 +2766,9 @@ table.invitation-code-error-table td
     color: rgb(173,28,43);
 }
 
+/* Done */
 .boards-controls-limit .limit {
-    color: #000000;
+    color: #DCDCDC;
 }
 
 .agile-board .member.header.exceed {
@@ -3266,10 +3287,11 @@ th .witState
     color: #000000;
 }
 
+/* Done */
 .add-panel
 {
-    background-color: #e6e6e6;
-    border-left-color: #cccccc;
+    background-color: #393C42;
+    border-left-color: #3399FF;
 }
 .forecasting-input-container
 {
@@ -3305,9 +3327,10 @@ th .witState
     color: #6D6D6D;
 }
 
+/* Done */
 .backlog .grid-row-normal.grid-row-insertion-highlight-top
 {
-    border-top-color: #008000;
+    border-top-color: #3399FF;
 }
 
 .backlog .grid-row-normal.grid-row-insertion-highlight-bottom
