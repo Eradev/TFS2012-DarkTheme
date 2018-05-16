@@ -1,7 +1,7 @@
 /* Colors
 	White:		#DCDCDC
 	Black:		#292C31
-	Light Grey: #ABABAB
+	Light Grey: 	#ABABAB
 	Grey:		#393C42
 	Red:		#D73A49
 	Dark Blue:	#395573
@@ -2024,8 +2024,8 @@ div.tags-label-container {
 
 .build-detail-view .header
 {
-    background-color: #f3f3f3;
-    border-bottom-color: #dddddd;
+    background-color: #393C42;
+    border-bottom-color: #395573;
     box-shadow: 0px 1px 2px rgba(160,160,160,0.2);
 }
 
