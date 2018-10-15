@@ -3414,3 +3414,7 @@ th .witState
 .sprint-date.dates-set:hover {
     color: #007acc;
 }
+
+.grid-status-message {
+   color: #2B2B2B; 
+}
